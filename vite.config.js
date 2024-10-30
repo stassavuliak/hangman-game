@@ -8,5 +8,6 @@ export default defineConfig({
         assetFileNames: '[name][extname]'  // чтобы файлы шрифтов не помещались в assets
       }
     }
-  }
+  },
+  base: '/hangman-game',
 });
